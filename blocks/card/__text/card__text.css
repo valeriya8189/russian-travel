@@ -1,0 +1,13 @@
+.card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+@media(max-width:320px) {
+    .card__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,21 @@
+.cover__link {
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+}
+
+.cover__link:hover::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}

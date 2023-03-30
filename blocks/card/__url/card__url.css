@@ -1,0 +1,23 @@
+.card__url {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+}
+
+@media(max-width:768px) {
+    .card__url {
+        line-height: 100%;
+    }
+}
+
+@media(max-width:320px) {
+    .card__url {
+        max-width: 288px;
+        line-height: 12px;
+    }
+}

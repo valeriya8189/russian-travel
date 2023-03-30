@@ -1,0 +1,23 @@
+.card__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 12px;
+}
+
+@media(min-width:320px) and (max-width:768px) {
+    .card__list {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+@media (max-width:320px) {
+    .card__list {
+        max-width: 288px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

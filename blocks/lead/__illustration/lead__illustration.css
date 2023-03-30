@@ -1,0 +1,10 @@
+.lead__illustration {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media(max-width) {
+    .lead__illustration {
+        width: 100%;
+    }
+}

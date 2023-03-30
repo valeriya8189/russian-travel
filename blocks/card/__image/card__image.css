@@ -1,0 +1,31 @@
+.card__image {
+    max-width: 460px;
+    width: 100%;
+    min-height: 460px;
+}
+
+@media(max-width:1024px) {
+    .card__image {
+        min-height: 440px;
+    }
+}
+
+@media(max-width:768px) {
+    .card__image {
+        min-height: 340px;
+    }
+}
+
+@media(min-width:320px) and (max-width:768px) {
+    .card__image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media(max-width:320px) {
+    .card__image {
+        min-height: 320px;
+    }
+}
