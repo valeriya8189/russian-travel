@@ -1,38 +1,23 @@
 .card__paragraph {
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
     max-width: 484px;
-}
-
-@media(max-width:1024px) {
-    .card__paragraph {
-        max-width: 456px;
-    }
+    width: 100%;
 }
 
 @media(max-width:768px) {
     .card__paragraph {
-        max-width: 352px;
         font-size: 16px;
-        line-height: 163%;
     }
 }
 
-@media(min-width:320px) and (max-width:768px) {
+@media(max-width:720px) {
     .card__paragraph {
-        margin-left: auto;
         margin-right: auto;
-        width: 90%;
-    }
-}
-
-@media(max-width:320px) {
-    .card__paragraph {
-        max-width: 288px;
     }
 }

@@ -1,9 +1,11 @@
 .card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 460px 1fr;
     column-gap: 40px;
-    row-gap: 49px;
+    row-gap: 48px;
     padding-bottom: 80px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card:last-child {
@@ -13,28 +15,25 @@
 @media(max-width:1024px) {
     .card {
         column-gap: 32px;
-        row-gap: 48px;
+        grid-template-columns: 440px 1fr;
     }
 }
 
 @media(max-width:768px) {
     .card {
         column-gap: 28px;
-        row-gap: 48px;
         padding-bottom: 73px;
+        grid-template-columns: 340px 1fr;
     }
 }
 
-@media(min-width:320px) and (max-width:768px) {
+@media(max-width:720px) {
     .card {
+        gap: 32px;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
-    }
-}
-
-@media(max-width:320px) {
-    .card {
-        display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

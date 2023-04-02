@@ -5,22 +5,13 @@
     line-height: 106%;
     color: #FFFFFF;
     max-width: 560px;
-    z-index: 0;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
 }
 
-@media(min-width:320px) and (max-width:768px) {
+@media(max-width:720px) {
     .cover__title {
-        font-size: 32px;
-        line-height: 109%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-}
-
-@media(max-width:320px) {
-    .cover__title {
-        max-width: 288px;
         font-size: 32px;
         line-height: 109%;
     }
