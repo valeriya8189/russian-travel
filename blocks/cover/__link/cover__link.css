@@ -22,7 +22,9 @@
 
 .cover__link::after {
     content: "";
-    background: rgba(0, 0, 0, 0.3);
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    /*background: rgba(0, 0, 0, 0.3);*/
     top: 0;
     left: 0;
     width: 100%;
@@ -31,5 +33,7 @@
 }
 
 .cover__link:hover::after {
-    background: rgba(0, 0, 0, 0.8);
+    /*background: rgba(0, 0, 0, 0.8);*/
+    background-color: #2A2C2F;
+    opacity: 0.8;
 }

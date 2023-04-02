@@ -11,3 +11,9 @@
     padding-bottom: 33px;
     max-width: 690px;
 }
+
+@media (max-width:720px) {
+    .intro__text {
+        padding-bottom: 34px;
+    }
+}
