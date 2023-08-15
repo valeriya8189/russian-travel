@@ -13,6 +13,6 @@
 
 **Планы**
 
-В дальнейшем планируется доработка проекта c gjlrk.xtybtv JavaScript.
+В дальнейшем планируется доработка проекта c помощью JavaScript.
 
 https://valeriya8189.github.io/russian-travel/
